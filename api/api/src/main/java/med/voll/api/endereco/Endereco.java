@@ -22,7 +22,7 @@ public class Endereco {
     public Endereco(DadosEndereco dados) {
         this.logradouro = dados.logradouro();
         this.bairro = dados.bairro();
-        this.cep = dados.cidade();
+        this.cep = dados.cep();
         this.numero = dados.numero();
         this.complemento = dados.complemento();
         this.cidade = dados.cidade();

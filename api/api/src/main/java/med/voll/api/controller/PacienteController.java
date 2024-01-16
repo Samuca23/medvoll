@@ -19,7 +19,6 @@ public class PacienteController {
     @Autowired
     private PacienteRepository repository;
 
-
     @PostMapping
     @Transactional
     public void cadastrar(@RequestBody @Valid DadosCadastroPaciente dados) {

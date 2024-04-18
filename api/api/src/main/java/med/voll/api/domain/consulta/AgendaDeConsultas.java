@@ -1,6 +1,5 @@
 package med.voll.api.domain.consulta;
 
-import jakarta.validation.ValidationException;
 import med.voll.api.domain.ValidacaoException;
 import med.voll.api.domain.consulta.validacoes.ValidadorAgendamentoDeConsulta;
 import med.voll.api.domain.consulta.validacoes.ValidadorCancelamentoConsulta;
